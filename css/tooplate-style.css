@@ -310,6 +310,7 @@ strong {
 
 .color-mode-icon:after {
   font-family: 'unicons';
+  /* content: '\ea9f'; */
   content: '\ea9f';
   font-size: 30px;
   font-weight: 300;
@@ -543,8 +544,13 @@ strong {
     padding-bottom: 4rem;
   }
 
+  .navbar-nav {
+    position: relative;
+    top: 9px;
+  }
+
   .color-mode {
-    display: none;
+    /* display: none; */
   }
 
   .about-image {
@@ -574,10 +580,8 @@ strong {
     font-size: 28px;
   }
 
-  .navbar-collapse {
-    background: #ffffff;
-    text-align: center;
-    padding-bottom: 20px;
+  .color-mode {
+    display: none;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -592,6 +596,16 @@ strong {
 
   .animated-item {
     font-size: 30px;
+  }
+
+  .navbar-collapse {
+    /* background: #ffffff; */
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .color-mode {
+    display: none;
   }
 
   .custom-btn-group {
