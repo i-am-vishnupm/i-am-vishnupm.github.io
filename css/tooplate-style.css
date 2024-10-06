@@ -22,7 +22,7 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 8px 0px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -584,6 +584,10 @@ strong {
     display: none;
   }
 
+  .navbar {
+    background-color: #0c0c0d;
+  }
+
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
@@ -653,10 +657,6 @@ strong {
     vertical-align: top;
   }
 }
-
-
-/* added by me */
-
 
 .section p {
   font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
